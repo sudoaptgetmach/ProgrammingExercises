@@ -1,18 +1,29 @@
-## Getting Started
+# Java Exercises
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repository contains various Java exercises organized into different packages. Below is a brief description of some exercises and its purpose.
 
-## Folder Structure
+## Packages and Classes
 
-The workspace contains two folders by default, where:
+### `beecrowd`
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **simplesum.java**: 
+  - This class reads two integers from the user, calculates their sum, and prints the result.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **averagetwo.java**:
+  - This class reads three double values from the user, calculates their weighted average, and prints the result.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- **averageone.java**:
+  - This class reads two float values from the user, calculates their weighted average, and prints the result.
 
-## Dependency Management
+- **circle.java**:
+  - This class reads a double value representing the radius of a circle, calculates the area, and prints the result.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### `exercism`
+
+- **IllegalOperationException.java**: 
+  - This class defines a custom exception for illegal operations in a calculator.
+  - **CalculatorConundrum**: 
+    - This class contains a method to perform basic arithmetic operations (addition, multiplication, division) and throws custom exceptions for illegal operations.
+
+- **Greeter.java**: 
+  - This class contains a method to return a greeting message.
