@@ -26,7 +26,7 @@ public class Triangle {
         if (a > 0 && b > 0 && c > 0) {
             if ((a + b) > c && (a + c) > b && (b + c) > a) {
 //                double area = Math.sqrt(p*(p-a)*(p-b)*(p-c));
-//                System.out.println("A=" + area); ??????????????????/ ELE PEDE PRA CALCULAR O TRAPÉZIO SE FORMAR UM QUADRADO, NAO A AREA, ANIMAL LEIA O EXERCICIO ANTES DE FAZER
+//                System.out.println("A=" + area); ??????????????????/ ELE PEDE PRA CALCULAR O TRAPÉZIO SE FORMAR UM TRIANGULO, NAO A AREA, ANIMAL LEIA O EXERCICIO ANTES DE FAZER
                 double perimetro = a + b + c;
                 System.out.println("Perimetro = " + perimetro);
             } else {
