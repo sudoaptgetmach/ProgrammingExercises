@@ -16,6 +16,8 @@ public class Atividade {
         votos.put(numero, votosCandidato);
         votos.put(numero2, votosCandidato2);
 
+        System.out.println(votos);
+
         String maxKey = votos.entrySet()
                 .stream()
                 .max(Map.Entry.comparingByValue())
