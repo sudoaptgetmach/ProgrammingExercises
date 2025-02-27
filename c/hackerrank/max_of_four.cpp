@@ -41,7 +41,7 @@ int max_of_four(int a, int b, int c, int d) {
     if (d > max) max = d;
 
     return max;
-  \*
+  */
 }
 
 int main() {
