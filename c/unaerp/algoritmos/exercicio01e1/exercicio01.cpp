@@ -5,7 +5,6 @@ Com média >= 7.0 e presença >=75 o aluno está aprovado;
 Com média >= 5 e média < 7 e frequência >=75 o aluno está de recuperação; 
 Com média < 5 ou frequência < 75 o aluno está reprovado. */
 
-
 #include <stdio.h>
 
 int main() {
