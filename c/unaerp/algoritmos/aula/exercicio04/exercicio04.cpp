@@ -21,14 +21,13 @@ int main() {
     if (c > max) max = c;
     if (d > max) max = d;
 
-
     min = a;
     if (min > b) min = b;
     if (min > c) min = c;
     if (min > d) min = d;
 
-    printf("O maior número é: %d", max);
-    printf("O menor número é: %d", min);
+    printf("O maior número é: %d\n", max);
+    printf("O menor número é: %d\n", min);
 
     return 0;
 }
