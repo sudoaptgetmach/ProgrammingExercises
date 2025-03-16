@@ -1,4 +1,4 @@
-package beecrowd;
+package beecrowd.beginner;
 
 import java.util.ArrayList;
 import java.util.Scanner;
