@@ -1,4 +1,4 @@
-package beecrowd;
+package beecrowd.beginner;
 
 public class helloworld {
     
