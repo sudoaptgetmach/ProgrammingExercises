@@ -17,7 +17,7 @@ int main() {
 	}
 	
 	printf("Seu salário original é: R$ %.2lf\n", salario);
-	printf("Seu salário descontado é: R$ %.2lf\n", desconto);
+	printf("Seu desconto é: R$ %.2lf\n", desconto);
 	printf("Novo salário: R$ %.2lf\n", (salario-desconto));
 	
 	return 0;
