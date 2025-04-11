@@ -7,7 +7,7 @@
 //     • Tipo 1: R$ 5,00 + R$ 10,00 por m³
 //     • Tipo 2: R$ 1000,00 até 80 m³; acima disso, R$ 15,00 por m³ excedente
 //     • Tipo 3: R$ 1500,00 até 100 m³; acima disso, R$ 20,00 por m³ excedente
-// - Exibir: tipo de instalação, consumo e valor da conta final.
+// - Exibir: tipo de instalação, consumo e valor da conta final. 
 
 #include <stdio.h>
 
