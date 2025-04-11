@@ -14,11 +14,11 @@ int main() {
 	scanf("%d", &p);
 	
 	const char *r = (p > 5) ? "Estacas" :
-					(p > 2) ? "Brocas"  :
-					"Radier";
+			(p > 2) ? "Brocas"  :
+			"Radier";
 					
 	printf("Profundidade da rocha: %d\n", p);
-	printf("Profundidade da rocha: %s", r);
+	printf("Tipo de fundação recomendada: %s", r);
 	
 	return 0;
 }
